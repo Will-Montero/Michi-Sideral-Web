@@ -1,14 +1,20 @@
+/* Estilos generales para el contenedor */
 .div {
-    height: 100vh;
-    width: 100%;
+    margin: 0 auto;
+    width: 80%; /* Ajustar el ancho al 100% del contenedor padre */
     position: relative;
     overflow: hidden;
 }
- 
+
+/* Estilos generales para el video */
 video {
-    width: 100%;
+    width: 80%;
+    height: 100%; /* Asegurarse de que el video cubra todo el contenedor */
+    object-fit: cover; /* Mantiene el video cubriendo el contenedor sin distorsión */
+    border-radius: 25px;
 }
 
+/* Estilos para el contenido sobre el video */
 .content {
     position: absolute;
     top: 0;
@@ -18,5 +24,42 @@ video {
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    color: white;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+
+/* Pantallas grandes (computadoras) */
+@media (min-width: 1024px) {
+    .div {
+        height: 40vh; /* 40% de la altura de la vista */
+    }
+
+    video {
+        height: 100%; /* Ajustar el video a la altura del contenedor */
+    }
+}
+
+/* Pantallas medianas (tablets y móviles grandes) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .div {
+        height: 50vh; /* 50% de la altura de la vista */
+    }
+
+    video {
+        height: 100%; /* Ajustar el video a la altura del contenedor */
+    }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+    .div {
+        height: 50vh; /* 50% de la altura de la vista */
+    }
+
+    video {
+        height: 100%; /* Ajustar el video a la altura del contenedor */
+    }
 }
