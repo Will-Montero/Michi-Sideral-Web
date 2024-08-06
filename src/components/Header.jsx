@@ -7,7 +7,6 @@ export const Header = () => {
       <a>Lives</a>
       <a>Eventos</a>
     </nav>
-    <hr />
     </>
   )
 }

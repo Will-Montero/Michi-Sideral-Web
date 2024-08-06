@@ -6,9 +6,7 @@ export const Videos = () => {
   return (
     <div className='div'>
       <img src={LogoHome}  ></img>
-      <div className="content">
-        <h1>Michi Sideral</h1>
-      </div>
+        <h1 className="content">Michi Sideral</h1>
     </div>
   );
 };

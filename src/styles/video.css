@@ -1,9 +1,7 @@
 .div {
     margin: 0 auto;
     height: 100%;
-    width: 60%;
-    position: relative;
-    overflow: hidden;
+    width: 20%;
 }
  
 img {
@@ -14,24 +12,9 @@ img {
 }
 
 .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;  /* Ajustado para centrar verticalmente */
     text-align: center;
-    color: white;  /* Asegúrate de que el texto sea visible */
+    margin:  auto;
+    color: rgb(198, 94, 8);
 }
 
-@media(max-width > 900px){
-    .div {
-        margin: o auto;
-        width: 30%;
-        height: 100%;
-    }
-}
 
