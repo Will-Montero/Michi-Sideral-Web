@@ -26,6 +26,7 @@
   grid-template-rows: auto;
   grid-gap: 15px; /* Agrega espacio entre los elementos */
   height: auto;
+  border-radius: 25px;
 }
 
 /** card individual */
@@ -77,10 +78,10 @@
   .reproductor {
     width: 60%; /* Ajusta el ancho para pantallas más grandes */
     margin: 0 auto;
+    border-radius: 25px;
     background: rgb(9,40,37);
     color: rgb(197, 209, 242);
-    box-shadow: 0 0px 10px rgba(244, 243, 248, 0.348);
-  border-radius: 25px;
+    
   }
 
   .containerReproductor {

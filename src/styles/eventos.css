@@ -1,0 +1,39 @@
+
+ 
+ .containerEventos{
+    width: 90%;
+  }
+  .imagenEventos {
+    width: 40vw;
+    height: 37vh;
+    box-shadow: 0 30px 300px rgba(175, 166, 226, 0.682);
+   }
+   .contedorImagenes {
+    
+
+   }
+
+ @media(mmin-width:  720px){
+    .containerEventos{
+        width: 35%;
+        margin: 0 auto;
+        padding: 10px;
+     }
+     .tituloEventos{
+      padding-top: 40px;
+      color: white;
+      text-align: center;
+     }
+    
+     .imagenEventos {
+      width: 15vw;
+      height: 40vh;
+      border-radius: 20px;
+      box-shadow: 0 10px 700px rgba(103, 2, 227, 0.682);
+     }
+     .parrafoEventos {
+      color: #fff;
+      margin:  10px 10px;
+    
+     }
+ }
