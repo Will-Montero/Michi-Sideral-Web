@@ -1,7 +1,7 @@
 nav{
     display: flex;
     justify-content: center;
-    color: rgb(220, 91, 10)
+    color: rgb(255, 255, 255)
 }
 nav a {
     margin: 15px;

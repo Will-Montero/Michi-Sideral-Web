@@ -3,7 +3,8 @@
   margin: 0 auto;
   background: rgb(9,40,37);
   color: rgb(197, 209, 242);
-  box-shadow: 0 1px 10px rgba(244, 243, 248, 0.682);
+  box-shadow: 0 0px 10px rgba(244, 243, 248, 0.348);
+  border-radius: 25px;
 }
 
 .tituloMusica {
@@ -33,7 +34,6 @@
   padding: 15px;
   width: 100%;
   height: auto;
-  /* box-shadow: 0 4px 12px rgba(38, 41, 191, 0.657);*/
 }
 
 .imagenMusica {
@@ -77,9 +77,10 @@
   .reproductor {
     width: 60%; /* Ajusta el ancho para pantallas más grandes */
     margin: 0 auto;
-    border-radius: 5px;
     background: rgb(9,40,37);
     color: rgb(197, 209, 242);
+    box-shadow: 0 0px 10px rgba(244, 243, 248, 0.348);
+  border-radius: 25px;
   }
 
   .containerReproductor {
