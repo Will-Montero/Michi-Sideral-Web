@@ -8,7 +8,7 @@ export const Novedades = () => {
       <br />
       <a>
         <div className="card">
-          <img src={loopEvento} className="card-img-top" />
+          <img src={loopEvento} className="imagen-Lanzamiento" />
           <div className="card-body">
             <h6 className="card-text">Nuestro próximo lanzamiento</h6>
             <h3>Loop</h3>

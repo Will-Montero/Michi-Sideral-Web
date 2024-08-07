@@ -15,13 +15,13 @@
   .imagenEventos {
     width: 40vw;
     height: 37vh;
-    box-shadow: 0 30px 300px rgba(175, 166, 226, 0.682);
+    box-shadow: 0 30px 300px rgba(247, 55, 12, 0.682);
    }
  
 
-  @media(mmin-width:  720px){
+  @media(min-width:  720px){
     .containerEventos{
-        width: 35%;
+        width: 100%;
         margin: 0 auto;
         padding: 10px;
      }
@@ -32,18 +32,19 @@
      }
     
      .contenedorImagenes {
+     width: 40%;
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    width: 90%;
+    
   }
 
      .imagenEventos {
       width: 15vw;
       height: 40vh;
       border-radius: 20px;
-      box-shadow: 0 10px 700px rgba(103, 2, 227, 0.682);
+      box-shadow: 0 10px 700px rgba(47, 50, 49, 0.682);
      }
      .parrafoEventos {
       color: #fff;

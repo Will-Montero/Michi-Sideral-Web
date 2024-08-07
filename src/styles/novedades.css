@@ -8,10 +8,11 @@
     border-radius: 20px;
     box-shadow: 0 0px 10px rgba(244, 243, 248, 0.348);
 }
-.card-img-top {
-    padding-top: 15px;
+.imagen-Lanzamiento {
+    margin: 0 auto;
+    margin-top: 15px;
     padding-bottom: 0;
-    border-radius: 23px;
+    border-radius: 25px;
     width: 95%;
     height: auto;
 }

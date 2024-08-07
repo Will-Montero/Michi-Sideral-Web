@@ -42,6 +42,7 @@
   height: 35vh;
   object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsión */
   display: block;
+  border-radius: 20px;
 }
 
 .card-content {
@@ -102,5 +103,6 @@
   .imagenMusica {
     width: 100%;
     height: 35vh; /* Ajusta la altura automáticamente para mantener el aspecto */
+    border-radius: 20px;
   }
 }

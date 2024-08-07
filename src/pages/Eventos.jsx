@@ -12,7 +12,7 @@ export const Eventos = () => {
  <main className='contenedorImagenes'>
   <div className="cardEventos">
     <img className='imagenEventos' src={paramoreToque} alt=""/>
-    <h5 className='parrafoEvento'>Recuerdo de uno de nuestros toque, haciendo un buen tributo a Paramore</h5>
+    <h5 className='parrafoEventos'>Recuerdo de uno de nuestros toque, haciendo un buen tributo a Paramore</h5>
   </div>
   <div className="cardEventos">
     <img className='imagenEventos' src={nirvanaToque} alt=""/>
