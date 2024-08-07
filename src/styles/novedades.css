@@ -1,18 +1,19 @@
-.card {
-    margin: 0 auto;
-    width: 30%;
-    height: auto;
-    background: rgb(9,40,37);
-    color: azure;
-    text-align: center;
-    border-radius: 20px;
-    box-shadow: 0 0px 10px rgba(244, 243, 248, 0.348);
-}
-.imagen-Lanzamiento {
-    margin: 0 auto;
-    margin-top: 15px;
-    padding-bottom: 0;
-    border-radius: 25px;
-    width: 95%;
-    height: auto;
+@media(min-width: 700px){
+    .card {
+        margin: 0 auto;
+        width: 25%;
+        height: auto;
+        background: rgb(0, 7, 6);
+        color: azure;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 0px 10px rgba(244, 243, 248, 0.348);
+    }
+    .imagen-Lanzamiento {
+        margin: 0 auto;
+        padding-bottom: 0;
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+    }
 }

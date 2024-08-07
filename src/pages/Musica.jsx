@@ -5,14 +5,11 @@ import fractales2 from '../assets/images/cardCanciones/fractales2.jpg'
 import psicodelia from '../assets/images/cardCanciones/psicodelia.jpg'
 export const Musica = () => {
   return (
-    
-       <div className="reproductor">
-        <div className="tituloMusica">
-          <br />
-         <br />
-            <h2>Temas</h2>
-        </div>
+       <>
+        <h2 className='tituloMusica'>Temas</h2>
+        <br />
         
+       <div className="reproductor">
         <section className="containerReproductor">
             <div className="cardMusica" >
                 <img className='imagenMusica'  src={espacio} alt="Imagen de ejemplo"/>
@@ -64,6 +61,7 @@ export const Musica = () => {
               </div>
         </section>
     </div>
+       </>
     
   )
 }
