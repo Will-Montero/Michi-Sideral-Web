@@ -8,6 +8,10 @@ export const AppMichi = () => {
     <Header></Header>
     <Videos></Videos>
     <Novedades></Novedades>
+    <br />
+    <br />
+    <br />
+    
     <Musica></Musica>
     </>
   )

@@ -1,5 +1,6 @@
-import loopEvento from '../assets/images/loopEvento.avif'
 import '../styles/novedades.css'
+import loopEvento from '../assets/images/loopEvento.avif'
+
 export const Novedades = () => {
   return (
     <>
@@ -16,6 +17,10 @@ export const Novedades = () => {
      </div>
    </div>
     </a>
+    <br />
+    <br />
+    <br />
+    <br />
     </>
   )
 }

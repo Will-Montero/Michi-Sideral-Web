@@ -1,5 +1,32 @@
-/**container grid*/
-.containerReproductor {
+
+.reproductor{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background: rgb(1,3,33);
+    background: linear-gradient(90deg, rgba(1,3,33,1) 0%, rgb(5, 3, 39) 48%, rgba(1,3,33,1) 100%);
+}
+
+@media (width > 700px){
+    .reproductor {
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 12px;
+        background: rgb(1,3,33);
+        background: linear-gradient(90deg, rgba(1,3,33,1) 0%, rgb(5, 3, 39) 48%, rgba(1,3,33,1) 100%);
+    }
+
+}
+.tituloMusica {
+    color: white;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 35px;
+ }
+
+ /**container grid*/
+ .containerReproductor {
     margin: 0 auto;
     width: 100%;
     padding: 15px 0px;
@@ -80,3 +107,7 @@
   width: 90%;
   padding: 10px 5px;
 }
+
+  controls {
+
+  }

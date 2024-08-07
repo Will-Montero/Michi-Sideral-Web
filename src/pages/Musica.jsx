@@ -1,7 +1,11 @@
-
+import '../styles/musica.css'
+import espacio from '../assets/images/cardCanciones/espacio1.jpg'
+import fractales from '../assets/images/cardCanciones/fractales.jpg'
+import fractales2 from '../assets/images/cardCanciones/fractales2.jpg'
+import psicodelia from '../assets/images/cardCanciones/psicodelia.jpg'
 export const Musica = () => {
   return (
-    <>
+    
        <div className="reproductor">
         <div className="tituloMusica">
             <h2>Temas</h2>
@@ -9,7 +13,7 @@ export const Musica = () => {
         
         <section className="containerReproductor">
             <div className="card" >
-                <img src="./img/espacio1.jpg" alt="Imagen de ejemplo"/>
+                <img src={espacio} alt="Imagen de ejemplo"/>
                 <div className="card-content">
                   <h3>Rompecabezas</h3>
                   <p>Michi Sideral</p>
@@ -21,7 +25,7 @@ export const Musica = () => {
                 </div>
               </div>
               <div className="card"  >
-                <img src="./img/fractales.jpg" alt="Imagen de ejemplo"/>
+                <img src={fractales}alt="Imagen de ejemplo"/>
                 <div className="card-content">
                   <h3>Jalea Sideral</h3>
                   <p>Michi Sideral</p>
@@ -33,7 +37,7 @@ export const Musica = () => {
                 </div>
               </div>
               <div className="card" >
-                <img src="./img/fractales1.jpg" alt="Imagen de ejemplo"/>
+                <img src={fractales2} alt="Imagen de ejemplo"/>
                 <div className="card-content">
                   <h3>Loop</h3>
                   <p>Michi Sideral</p>
@@ -45,7 +49,7 @@ export const Musica = () => {
                 </div>
               </div>
               <div className="card" >
-                <img src="./img/psicodelia.jpg" alt="Imagen de ejemplo"/>
+                <img src={psicodelia} alt="Imagen de ejemplo"/>
                 <div className="card-content">
                   <h3>Acides</h3>
                   <p>Michi Sideral</p>
@@ -58,6 +62,6 @@ export const Musica = () => {
               </div>
         </section>
     </div>
-    </>
+    
   )
 }
