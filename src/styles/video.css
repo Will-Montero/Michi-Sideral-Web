@@ -1,21 +1,42 @@
-.div {
-    margin: 0 auto;
-    height: 100%;
-    width: 20%;
+.content {
+    text-align: center;
+    margin:  auto;
+    color: rgba(255, 255, 255, 0.995);
 }
- 
 .imagenLogo {
     margin: 0 auto;
     width: 100%;
     height: auto;
     border-radius: 25px;
-    filter: drop-shadow(0 0 10px rgba(255, 161, 94, 0.8));
+    filter: drop-shadow(0 0 100px rgb(0, 72, 81));
+}
+.div {
+    margin: 0 auto;
+    height: 100%;
+    width: 50%;
 }
 
-.content {
-    text-align: center;
-    margin:  auto;
-    color: rgb(255, 255, 255);
+
+@media (min-width: 720px){
+    .div {
+        margin: 0 auto;
+        height: 100%;
+        width: 20%;
+    }
+     
+    .imagenLogo {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        border-radius: 25px;
+        filter: drop-shadow(0 0 100px rgb(0, 72, 81));
+        }
+    
+    .content {
+        text-align: center;
+        margin:  auto;
+        color: rgb(255, 255, 255);
+    }
 }
 
 
