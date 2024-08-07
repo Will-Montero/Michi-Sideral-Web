@@ -10,7 +10,7 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    width: ;
+    width: 90%;
   }
   .imagenEventos {
     width: 40vw;
@@ -19,7 +19,7 @@
    }
  
 
-/*  @media(mmin-width:  720px){
+  @media(mmin-width:  720px){
     .containerEventos{
         width: 35%;
         margin: 0 auto;
@@ -31,6 +31,14 @@
       text-align: center;
      }
     
+     .contenedorImagenes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+
      .imagenEventos {
       width: 15vw;
       height: 40vh;
@@ -42,4 +50,4 @@
       margin:  10px 10px;
     
      }
- } */
+ } 
