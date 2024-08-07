@@ -5,6 +5,9 @@
     color: azure;
     text-align: center;
     border-radius: 20px;
+    box-shadow: 
+    1px 1px 10px rgb(9,40,37),
+    -1px -1px 10px  rgb(9,40,37);
 }
 .card-img-top {
     padding: 5px;

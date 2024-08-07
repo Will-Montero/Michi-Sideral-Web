@@ -3,6 +3,10 @@ import '../styles/novedades.css'
 export const Novedades = () => {
   return (
     <>
+    <br />
+    <br />
+    
+
     <a>
     <div className="card">
     <img src={loopEvento} className="card-img-top"/>
