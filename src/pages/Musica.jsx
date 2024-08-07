@@ -8,12 +8,14 @@ export const Musica = () => {
     
        <div className="reproductor">
         <div className="tituloMusica">
+          <br />
+         <br />
             <h2>Temas</h2>
         </div>
         
         <section className="containerReproductor">
-            <div className="card" >
-                <img src={espacio} alt="Imagen de ejemplo"/>
+            <div className="cardMusica" >
+                <img className='imagenMusica'  src={espacio} alt="Imagen de ejemplo"/>
                 <div className="card-content">
                   <h3>Rompecabezas</h3>
                   <p>Michi Sideral</p>
@@ -24,8 +26,8 @@ export const Musica = () => {
                   </audio>
                 </div>
               </div>
-              <div className="card"  >
-                <img src={fractales}alt="Imagen de ejemplo"/>
+              <div className="cardMusica"  >
+                <img className='imagenMusica' src={fractales}alt="Imagen de ejemplo"/>
                 <div className="card-content">
                   <h3>Jalea Sideral</h3>
                   <p>Michi Sideral</p>
@@ -36,8 +38,8 @@ export const Musica = () => {
                   </audio>
                 </div>
               </div>
-              <div className="card" >
-                <img src={fractales2} alt="Imagen de ejemplo"/>
+              <div className="cardMusica" >
+                <img className='imagenMusica' src={fractales2} alt="Imagen de ejemplo"/>
                 <div className="card-content">
                   <h3>Loop</h3>
                   <p>Michi Sideral</p>
@@ -48,8 +50,8 @@ export const Musica = () => {
                   </audio>
                 </div>
               </div>
-              <div className="card" >
-                <img src={psicodelia} alt="Imagen de ejemplo"/>
+              <div className="cardMusica" >
+                <img className='imagenMusica' src={psicodelia} alt="Imagen de ejemplo"/>
                 <div className="card-content">
                   <h3>Acides</h3>
                   <p>Michi Sideral</p>

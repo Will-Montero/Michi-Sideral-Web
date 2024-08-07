@@ -1,113 +1,104 @@
-
-.reproductor{
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-    background: rgb(1,3,33);
-    background: linear-gradient(90deg, rgba(1,3,33,1) 0%, rgb(5, 3, 39) 48%, rgba(1,3,33,1) 100%);
+.reproductor {
+  width: 90%; /* Cambiado a 95% para que en pantallas móviles tenga más espacio */
+  margin: 0 auto;
+  background: rgb(9,40,37);
+  color: rgb(197, 209, 242);
+  box-shadow: 0 1px 10px rgba(244, 243, 248, 0.682);
 }
 
-@media (width > 700px){
-    .reproductor {
-        width: 60%;
-        margin: 0 auto;
-        border-radius: 12px;
-        background: rgb(1,3,33);
-        background: linear-gradient(90deg, rgba(1,3,33,1) 0%, rgb(5, 3, 39) 48%, rgba(1,3,33,1) 100%);
-    }
-
-}
 .tituloMusica {
-    color: white;
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 35px;
- }
+  color: white;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+}
 
- /**container grid*/
- .containerReproductor {
-    margin: 0 auto;
-    width: 100%;
-    padding: 15px 0px;
-    display: grid;
-    background-color: rgb(2, 8, 32);
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    height: auto;
-    grid-template-areas: 
-    "musica"
-    "musica";
-    box-shadow: 0 1px 10px rgba(23, 10, 99, 0.682);
- }
- @media (width > 700px){
-    .containerReproductor {
-        grid-template-areas: 
-        "musica" "musica";
-        grid-template-columns:1fr 1fr;
-        grid-template-rows: 1fr;
-        height: auto;
-        width: 95%;
-        border-radius: 12px;
-        box-shadow: 0 1px 10px rgba(55, 39, 145, 0.682);
-    }
- }
+/** container grid */
+.containerReproductor {
+  margin: 0 auto;
+  width: 100%;
+  padding: 15px 0;
+  display: grid;
+  background: rgb(9,40,37);
+  grid-template-columns: 1fr; /* Una columna por defecto */
+  grid-template-rows: auto;
+  grid-gap: 15px; /* Agrega espacio entre los elementos */
+  height: auto;
+}
 
- /**card individual*/
- .card {
-    margin: 30px auto;
-    padding: 30px auto;
-    width: 100%;
-    height: 13rem;
-    /* Sombra sutil */
- }
+/** card individual */
+.cardMusica {
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  /* box-shadow: 0 4px 12px rgba(38, 41, 191, 0.657);*/
+}
 
+.imagenMusica {
+  width: 100%;
+  height: 35vh;
+  object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsión */
+  display: block;
+}
 
+.card-content {
+  text-align: center;
+  background: rgb(9,40,37);
+  color: #ffffff;
+}
 
-  @media (width > 1200px){
-    .card {
-       margin: 25px auto;
-        border: 0;
-        width: 80%;
-        height: 13rem;
-        box-shadow: 0 4px 12px rgba(38, 41, 191, 0.657); /* Sombra sutil */
-      }
-  }
-  
-  .card img {
-    width: 100%;
-    height: 35vh;
-    display: block;
-  }
-  
-  .card-content {
-    padding-top: 10px;
-    text-align: center;
-    background-color: #000000;
-    color: #011df2;
-  }
-  
-  .card-content h3 {
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .card-content p {
-    margin-bottom: 2px;
-    font-size: 14px;
-  }
-  .player {
-    background-color: #000000;
-     margin: 0 auto;
-     width: 100%;
-    text-align: center;
-  }
-.player-controls{
+.card-content h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-content p {
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
+.player {
+    background: rgb(9,40,37);
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.player-controls {
   width: 90%;
   padding: 10px 5px;
 }
 
-  controls {
-
+/* Estilo para pantallas de tablet y computadoras */
+@media (min-width: 700px) {
+  .reproductor {
+    width: 60%; /* Ajusta el ancho para pantallas más grandes */
+    margin: 0 auto;
+    border-radius: 5px;
+    background: rgb(9,40,37);
+    color: rgb(197, 209, 242);
   }
+
+  .containerReproductor {
+    grid-template-columns: 1fr 1fr; /* Dos columnas para pantallas más grandes */
+    grid-template-rows: auto;
+    grid-gap: 10px; /* Espacio entre las columnas */
+    width: 95%;
+    border-radius: 5px;
+  }
+
+  .cardMusica {
+    margin: 0 auto;
+    padding: 15px;
+    width: 100%;
+    height: 58vh;
+  }
+
+  .imagenMusica {
+    width: 100%;
+    height: 35vh; /* Ajusta la altura automáticamente para mantener el aspecto */
+  }
+}
