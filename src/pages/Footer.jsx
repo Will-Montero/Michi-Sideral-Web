@@ -11,11 +11,11 @@ export const Footer = () => {
     <footer>
    <section>
     <nav className="iconFooter">
-      <a href=""><img src={facebook} alt=""/></a>
-      <a href="https://www.instagram.com/michisideral/" target="_blank"><img src={instagram} /></a>
-      <a href=""><img src={spotify} alt=""/></a>
-      <a href=""><img src={tiktok} alt=""/></a>
-      <a href=""><img src={gmail} alt=""/></a>
+      <a className='icon' href=""><img src={facebook} alt=""/></a>
+      <a className='icon' href="https://www.instagram.com/michisideral/" ><img src={instagram} /></a>
+      <a className='icon' href=""><img src={spotify} alt=""/></a>
+      <a className='icon' href=""><img src={tiktok} alt=""/></a>
+      <a className='icon' href=""><img src={gmail} alt=""/></a>
    </nav>
    </section>
 </footer>
