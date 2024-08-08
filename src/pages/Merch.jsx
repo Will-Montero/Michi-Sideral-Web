@@ -8,14 +8,14 @@ import botonGato from '../assets/images/merch/botonGato.jpeg';
 
 const products = [
     {
-        name: 'Stiker',
-        price: '$20.000',
-        image: stikerGato
-    },
-    {
         name: 'Camiseta',
         price: '$30.000',
         image: camisetaGato
+    },
+    {
+        name: 'Sticker',
+        price: '$20.000',
+        image: stikerGato
     },
     {
         name: 'Botones',
