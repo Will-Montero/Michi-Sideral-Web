@@ -13,14 +13,12 @@ export const AppMichi = () => {
     <Novedades></Novedades>
     <br />
     <br />
-    <br />
-    
     <Musica></Musica>
     <br />
     <br />
     <Eventos></Eventos>
-    <Merch></Merch>
     <br />
+    <Merch></Merch>
     <br />
     <hr />
     <Footer></Footer>
