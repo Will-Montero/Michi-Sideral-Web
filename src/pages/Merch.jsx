@@ -8,7 +8,7 @@ import botonGato from '../assets/images/merch/botonGato.jpeg';
 
 const products = [
     {
-        name: 'Pegatina Sideral',
+        name: 'Stiker',
         price: '$20.000',
         image: stikerGato
     },
@@ -18,7 +18,7 @@ const products = [
         image: camisetaGato
     },
     {
-        name: 'Michi Botones',
+        name: 'Botones',
         price: '$5.000',
         image: botonGato
     }
@@ -49,7 +49,7 @@ export const Merch = () => {
     return (
         <section className="Merch">
             <header className="headerMerch">
-                <h2 className="tituloMerch">Merch...</h2>
+                <h2 className="tituloMerch">Merch</h2>
             </header>
             <div className="containerMerch">
                 <div className="image-container">
