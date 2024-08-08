@@ -1,8 +1,8 @@
 
-import '../styles/video.css';
+import '../styles/logo.css';
 import LogoHome from '../assets/images/LogoHome.png';
 
-export const Videos = () => {
+export const Logo = () => {
   return (
     <div className='div'>
       <img className='imagenLogo' src={LogoHome}  ></img>
