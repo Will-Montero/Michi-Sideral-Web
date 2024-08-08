@@ -8,12 +8,12 @@
     width: 100%;
     height: auto;
     border-radius: 25px;
-    filter: drop-shadow(0 0 100px rgb(0, 72, 81));
+    filter: drop-shadow(0 0 10px rgb(1, 124, 141));
 }
 .div {
     margin: 0 auto;
     height: 100%;
-    width: 50%;
+    width: 70%;
 }
 
 
