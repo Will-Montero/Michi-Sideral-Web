@@ -3,6 +3,7 @@ import { Videos } from "./pages/Videos"
 import { Novedades } from "./pages/Novedades"
 import { Musica } from "./pages/Musica"
 import { Eventos } from "./pages/Eventos"
+import { Merch } from './pages/Merch'
 export const AppMichi = () => {
   return (
     <>
@@ -17,6 +18,7 @@ export const AppMichi = () => {
     <br />
     <br />
     <Eventos></Eventos>
-    </>
+    <Merch></Merch>
+     </>
   )
 }

@@ -1,4 +1,4 @@
-
+import '../styles/merch.css'
 export const Merch = () => {
   return (
     <section className="Merch">
