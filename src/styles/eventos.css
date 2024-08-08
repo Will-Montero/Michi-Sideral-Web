@@ -14,13 +14,14 @@
 }
 .imagenEventos {
   width: 40vw;
-  height: 41vh;
+  height: 33vh;
   border-radius: 20px;
   box-shadow: 0 30px 300px rgba(116, 108, 106, 0.682);
 }
 .parrafoEventos {
   margin: 10px auto;
   width: 80%;
+  font-size: 15px;
 }
 
 @media (min-width: 720px) {

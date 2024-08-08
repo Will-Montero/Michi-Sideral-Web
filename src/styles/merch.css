@@ -1,6 +1,6 @@
 /* src/components/ProductCard.css */
 .Merch {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     box-shadow: 1 10px 100px rgba(55, 39, 145, 0.895);
    
@@ -15,7 +15,7 @@
 }
 
 .containerMerch {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -30,7 +30,7 @@
 }
 
 .imagen-merch{
-    width: 50%;
+    width: 90%;
     height: 50hv;
     background-color: rgb(5, 3, 39);
     border-radius: 30px;
@@ -66,7 +66,13 @@
 }
 
 
-@media (max-width: 700px) {
+@media (min-width: 700px) {
+    .Merch {
+        width: 30%;
+        margin: 0 auto;
+        box-shadow: 1 10px 100px rgba(55, 39, 145, 0.895);
+       
+    }
     .containerMerch {
         width: 100%;
         box-shadow: 1 10px 100px rgba(55, 39, 145, 0.895);
@@ -82,7 +88,7 @@
     }
 
     .controls {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .botonComprar{
