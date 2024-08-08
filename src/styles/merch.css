@@ -1,31 +1,98 @@
+/* src/components/ProductCard.css */
+.Merch {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 1 10px 100px rgba(55, 39, 145, 0.895);
+}
+
+.headerMerch {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
 .containerMerch {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: flex;
     flex-direction: column;
-    box-shadow: 1 10px 100px rgba(55, 39, 145, 0.895);
-  }
-  .image-container {
-    height: 70%;
+}
+
+.image-container {
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(5, 3, 39); /* Fondo gris para el contenedor de la imagen */
-  }
-  .image-container img {
-    width: 100%;
+    background-color: #5d5d5d00;
+}
+
+.image-container img {
+    width: 50%;
     height: auto;
-    background-color: ;
-    border-radius: 30px; /* Asegura que el fondo de la imagen sea transparente */
-  }
-  .controls {
-    width: 100%;
+    background-color: rgb(5, 3, 39);
+    border-radius: 30px;
+}
+
+.controls {
+    width: 50%;
     margin: 0 auto;
-    height: 0%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
     color: #fafafa;
-    
-  }
+}
+
+@media (max-width: 700px) {
+    .containerMerch {
+        width: 100%;
+        box-shadow: 1 10px 100px rgba(55, 39, 145, 0.895);
+    }
+
+    .image-container {
+        height: 70%;
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+
+    .controls {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.botonComprar {
+    background-color: #011df2;
+    color: #fff;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-info {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(205, 102, 102, 0);
+}
+
+.botonComprarMerch {
+    background-color: #011df2;
+}
+
+#product-name {
+    margin: 0;
+}
+
+#product-price {
+    margin: 5px 0 0 0;
+    color: #fffafa;
+}

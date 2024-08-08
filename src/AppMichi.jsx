@@ -4,6 +4,7 @@ import { Novedades } from "./pages/Novedades"
 import { Musica } from "./pages/Musica"
 import { Eventos } from "./pages/Eventos"
 import { Merch } from './pages/Merch'
+import { Footer } from "./pages/Footer"
 export const AppMichi = () => {
   return (
     <>
@@ -19,6 +20,10 @@ export const AppMichi = () => {
     <br />
     <Eventos></Eventos>
     <Merch></Merch>
+    <br />
+    <br />
+    <hr />
+    <Footer></Footer>
      </>
   )
 }

@@ -1,0 +1,42 @@
+footer{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+
+.iconFooter  {
+    margin: 10px auto;
+    width: 40%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    filter: drop-shadow(0 0 4px rgb(255, 255, 255));
+
+  }
+  .iconFooter :hover {
+    filter: drop-shadow(0 0 3px rgb(11, 88, 85));
+
+  }
+  @media(width > 700px){
+    
+    footer{
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+      }
+      .tituloFooter2  {
+      
+      }
+      
+      .iconFooter  {
+        margin: 25px auto;
+        width: 60%;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        filter: drop-shadow(0 0 4px rgb(255, 255, 255));
+
+      }
+      .iconFooter :hover {
+        filter: drop-shadow(0 0 3px rgb(11, 88, 85));
+
+      }
+  }
