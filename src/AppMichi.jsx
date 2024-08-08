@@ -11,22 +11,22 @@ export const AppMichi = () => {
     <>
     <Header></Header>
     <Logo></Logo>
-    <div>
+    <div  id="novedad">
     <Novedades></Novedades>
     </div>
     <br />
     <br />
-    <div>
+    <div  id="musica">
     <Musica></Musica>
     </div>
     <br />
     <br />
-    <div>
+    <div  id="eventos">
     <Eventos></Eventos>
     </div>
     <br />
-    <div>
-    <Merch></Merch>
+    <div >
+    <Merch id="merch"></Merch>
     </div>
     <br />
     <hr />
