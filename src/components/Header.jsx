@@ -1,11 +1,12 @@
 import '../styles/header.css'
+import { NavLink } from 'react-router-dom'
 export const Header = () => {
   return (
     <>
     <nav>
-      <a>Música</a>
-      <a>Lives</a>
-      <a>Eventos</a>
+      <NavLink to='/musica'>Música</NavLink>
+      <NavLink to='/merch'>Merch</NavLink>
+      <NavLink to='/eventos'>Eventos</NavLink>
     </nav>
     </>
   )
