@@ -6,7 +6,7 @@ import psicodelia from '../assets/images/cardCanciones/psicodelia.jpg'
 export const Musica = () => {
   return (
        <>
-        <h2 className='tituloMusica'>Temas</h2>
+        <h2 className='tituloMusica'>Música</h2>
         <br />
         
        <div className="reproductor">
