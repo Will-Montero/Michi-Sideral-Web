@@ -15,22 +15,21 @@
 
 .containerMerch {
     width: 80%;
-    height: auto;
     display: flex;
     flex-direction: column;
 }
 
 .image-container {
-    height: 40%;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #5d5d5d00;
 }
 
-.image-container img {
+.imagen-merch{
     width: 50%;
-    height: auto;
+    height: 50hv;
     background-color: rgb(5, 3, 39);
     border-radius: 30px;
 }
