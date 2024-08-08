@@ -14,6 +14,7 @@ footer{
   }
   .iconFooter :hover {
     filter: drop-shadow(0 0 3px rgb(11, 88, 85));
+    margin: 0 1px;
 
   }
   @media(width > 700px){
@@ -23,10 +24,7 @@ footer{
         justify-content: center;
         text-align: center;
       }
-      .tituloFooter2  {
-      
-      }
-      
+
       .iconFooter  {
         margin: 25px auto;
         width: 60%;
@@ -37,6 +35,7 @@ footer{
       }
       .iconFooter :hover {
         filter: drop-shadow(0 0 3px rgb(11, 88, 85));
+        margin:  0 3px;
 
       }
   }
